@@ -33,6 +33,7 @@ body {
   max-width: 1180px;
   padding: 0 20px;
   height: 100vh;
+  text-align: center;
 
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -63,7 +64,7 @@ body {
   color: var(--black);
 
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto;
 }
 
 .sign-up {
